@@ -1,0 +1,1 @@
+/home/terrykao/.vim/bundle/ultisnips/ftdetect/UltiSnips.vim

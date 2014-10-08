@@ -2,7 +2,7 @@ version 6.0
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
+"call pathogen#infect()
 
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
@@ -25,6 +25,15 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 
 syntax on
 filetype plugin indent on
-
+set runtimepath+=~/.vim/bundle/ultisnips,~/.vim/bundle/vim-snippets/
 " command! ForceWrite :!sudo tee %
 " vim: set ft=vim :
+
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" " If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

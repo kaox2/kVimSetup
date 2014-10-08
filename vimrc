@@ -25,7 +25,7 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 
 syntax on
 filetype plugin indent on
-set runtimepath+=~/.vim/bundle/ultisnips,~/.vim/bundle/vim-snippets/
+set runtimepath+=~/.vim/bundle/ultisnips,~/.vim/bundle/vim-snippets/,~/.vim/bundle/supertab
 " command! ForceWrite :!sudo tee %
 " vim: set ft=vim :
 

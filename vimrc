@@ -1,4 +1,9 @@
 version 6.0
+
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
@@ -17,4 +22,9 @@ set printoptions=paper:letter
 set ruler
 set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
+
+syntax on
+filetype plugin indent on
+
+" command! ForceWrite :!sudo tee %
 " vim: set ft=vim :

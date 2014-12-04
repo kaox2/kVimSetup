@@ -23,7 +23,7 @@ set ruler
 set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
-colors peachpuff
+colors vivify2
 syntax on
 filetype plugin indent on
 set runtimepath+=~/.vim/bundle/ultisnips,~/.vim/bundle/vim-snippets/,~/.vim/bundle/supertab,~/.vim/bundle/tagbar,~/.vim/bundle/vim-autoclose
@@ -40,3 +40,4 @@ let g:UltiSnipsEditSplit="vertical"
 
 " --- Tagbar
 nmap <F8> :TagbarToggle<CR>
+

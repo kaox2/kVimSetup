@@ -17,6 +17,7 @@ set backspace=indent,eol,start
 set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=en
 set history=50
+set shiftwidth=4
 set nomodeline
 set printoptions=paper:letter
 set ruler

@@ -11,6 +11,7 @@ nmap gx <Plug>NetrwBrowseX
 nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)
 noremap <F12> gt
 noremap <F11> gT
+set pastetoggle=<F2>
 let &cpo=s:cpo_save
 unlet s:cpo_save
 set backspace=indent,eol,start

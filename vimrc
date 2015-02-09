@@ -47,5 +47,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " --- Tagbar
-nmap <F8> :TagbarToggle<CR>
+nmap <silent> <F12> :TagbarToggle<CR>
+nmap <silent> <F9> :wincmd p<CR>
+"nmap <silent> <F10> :NERDTreeToggle<CR>
+let g:tagbar_autofocus = 1
 

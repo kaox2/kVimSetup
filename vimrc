@@ -48,6 +48,8 @@ let g:UltiSnipsEditSplit="vertical"
 
 " --- Tagbar
 nmap <silent> <F12> :TagbarToggle<CR>
+nmap <C-Left> :tabprevious<CR>
+nmap <C-Right> :tabnext<CR>
 nmap <silent> <F9> :wincmd p<CR>
 "nmap <silent> <F10> :NERDTreeToggle<CR>
 let g:tagbar_autofocus = 1

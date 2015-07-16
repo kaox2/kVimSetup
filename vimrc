@@ -12,6 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'vim-scripts/Tagbar'
+Plugin 'Valloric/YouCompleteMe'
 "Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet'
@@ -83,8 +84,6 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 
 colors vivify2
 syntax on
-filetype plugin indent on
-set runtimepath+=~/.vim/bundle/ultisnips,~/.vim/bundle/vim-snippets/,~/.vim/bundle/supertab,~/.vim/bundle/tagbar,~/.vim/bundle/vim-autoclose
 " command! ForceWrite :!sudo tee %
 " vim: set ft=vim :
 

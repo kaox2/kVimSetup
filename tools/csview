@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+FILE=$1
+if [ -z $FILE ] ; then
+echo "$0 <file>"
+fi
+
+cat "$FILE" | sed -e 's/,,/, ,/g' | column -s, -t | less -#5 -N -S
+
